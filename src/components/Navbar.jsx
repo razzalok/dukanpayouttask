@@ -4,8 +4,9 @@ import help from "../assets/images/navimg/Help.png";
 const Navbar = () => {
   return (
     <div className="navbar">
-      <p className="text-xl font-medium">Payouts</p>
-      <div className="ml-16 text-[#4D4D4D]">
+      <div className="flex">
+        <p className="text-xl font-medium">Payouts</p>
+        <div className="ml-4 text-[#4D4D4D]"></div>
         <div class="flex items-center space-x-2.5 grow">
           <svg
             width="14"
@@ -45,7 +46,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-      <div className="px-4 py-[9px] bg-[#F2F2F2] space-x-2 flex grow items-center rounded-md">
+      <div className="ml-40 w-[400px] px-4 py-[9px] bg-[#F2F2F2] space-x-2 flex grow items-center rounded-md w-[400px]">
         <svg
           width="16"
           height="16"
@@ -71,7 +72,7 @@ const Navbar = () => {
         />
       </div>
       <section className="flex space-x-3 grow justify-end">
-        <aside className="p-2.5 bg-background-light rounded-full hover:cursor-pointer">
+        <aside className="p-2.5 bg-[#E6E6E6] rounded-full hover:cursor-pointer">
           <svg
             width="20"
             height="20"
@@ -85,6 +86,7 @@ const Navbar = () => {
             ></path>
           </svg>
         </aside>
+
         <svg
           width="40"
           height="40"

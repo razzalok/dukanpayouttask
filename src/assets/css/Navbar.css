@@ -1,10 +1,12 @@
 .navbar {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-  border-bottom: 1px solid #d9d9d9;
+  /* border-bottom: 1px solid #d9d9d9; */
   align-items: center;
   width: 100%;
   display: flex;
+  align-items: center;
+  justify-content: center;
   z-index: 30;
   position: sticky;
   top: 0;
