@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Aside />
-        <div className="container">
+        <div className="main-container">
           <Navbar />
           <Dashboard />
         </div>

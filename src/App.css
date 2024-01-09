@@ -1,20 +1,18 @@
 .App {
   text-align: center;
-  /* display: flex; */
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-.container {
-  flex: 1;
-  flex-grow: 1;
 
-  position: relative;
-  padding: 16px 0;
-  margin-left: 20px;
+.main-container {
+  width: calc(100% - 226px); /* Adjust for sidebar width */
+  margin-left: 224px; /* Width of the sidebar */
+  background-color: #fafafa;
 }
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

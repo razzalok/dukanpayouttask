@@ -4,7 +4,7 @@ import help from "../assets/images/navimg/Help.png";
 const Navbar = () => {
   return (
     <div className="navbar">
-      <div className="flex">
+      <div className="flex	">
         <p className="text-xl font-medium">Payouts</p>
         <div className="ml-4 text-[#4D4D4D]"></div>
         <div class="flex items-center space-x-2.5 grow">
