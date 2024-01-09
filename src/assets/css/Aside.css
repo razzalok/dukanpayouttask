@@ -142,7 +142,8 @@
   color: #ffffff;
   display: flex;
   outline: none;
-  padding: 8px 16px;
+  padding: 4px 16px;
+  font-size: 13px;
   text-decoration: none;
   transition: all 0.2s ease-in-out;
 }
@@ -152,37 +153,6 @@
   background: rgba(255, 255, 255, 0.1);
 }
 
-.aside .navigation-dropdown .navigation .navigation-item {
-  padding-top: 0;
-  padding-bottom: 0;
-}
-
-/* .aside
-  .navigation-dropdown
-  .navigation
-  .navigation-item
-  .navigation-link::before {
-  content: "";
-  width: 8px;
-  height: 8px;
-  position: absolute;
-  left: 20px;
-  background: #fff;
-  border-radius: 100px;
-} */
-/* .aside .navigation-dropdown .navigation .navigation-item .navigation-link {
-  justify-content: start;
-} */
-.navigation-text {
-  /* overflow: hidden !important;
-  text-overflow: ellipsis !important;
-  white-space: nowrap !important;
-  font-family: Inter;
-  font-size: 14px !important;
-  font-style: normal;
-  line-height: 20px; */
-  /* 142.857% */
-}
 .navigation-link-extra,
 .navigation-link-info {
   align-items: center !important;
@@ -192,33 +162,16 @@
   overflow: hidden !important;
 }
 
-.svg-icon {
-  height: 1em !important;
-  width: 1em !important;
-}
-@media (min-width: 1200px) {
-}
-
 .navigation-link-icon {
   width: 35px !important;
 }
 .navigation-icon {
   display: flex !important;
-
-  width: 20px;
-  height: 20px;
+  width: 18px;
+  height: 18px;
   flex-shrink: 0;
 }
 
-.sidebar-toggled .wrapper {
-  padding-left: 6rem;
-}
-.sidebar-toggled .aside.toggled {
-  width: 5.5rem;
-}
-.sidebar-toggled .aside.toggled:hover {
-  width: 16rem;
-}
 /* .sidebar-toggled .aside.toggled .navigation-dropdown .navigation, */
 .sidebar-toggled .aside.toggled .navigation-dropdown > .navigation-link::after,
 .sidebar-toggled .aside.toggled .cstm-dropdown,
@@ -235,114 +188,6 @@
   > .navigation-link::after {
   display: inline-block;
 }
-.sidebar-toggled .aside.toggled:hover .cstm-dropdown,
-.toggled-mini .aside:hover .cstm-dropdown {
-  display: block;
-}
-
-@media (max-width: 1440px) {
-  /* .navigation-link {
-    padding: 3px 16px;
-  }
-  .navigation-icon {
-    display: flex !important;
-
-    width: 12px;
-    height: 12px;
-    flex-shrink: 0;
-  }
-  .navigation-text {
-    font-size: px !important;
-  } */
-  .toggled-mini .wrapper {
-    padding-left: 5.5rem;
-  }
-  .toggled-mini .aside {
-    width: 5.4rem;
-  }
-  .toggled-mini .aside:hover {
-    width: 16rem;
-  }
-  /* .toggled-mini .navigation-dropdown .navigation, */
-  .toggled-mini .navigation-dropdown > .navigation-link::after {
-    display: none;
-  }
-  /* .toggled-mini .aside:hover .navigation-dropdown .navigation
-      {
-          display: inherit;
-      } */
-  .toggled-mini .aside:hover .navigation-dropdown > .navigation-link::after {
-    display: inline-block;
-  }
-  .stats-card .card-body {
-    padding: 1rem;
-  }
-}
-
-@media (max-width: 992px) {
-  .aside,
-  .toggled-mini .aside {
-    /* width: 5rem; */
-  }
-  .wrapper,
-  .toggled-mini .wrapper {
-    padding-left: 0rem;
-  }
-  .sidebar-toggled .aside.toggled {
-    width: 16rem;
-  }
-  .sidebar-toggled .wrapper,
-  .wrapper {
-    padding-left: 0rem !important;
-  }
-
-  .aside {
-    border-radius: 0rem;
-    margin: 0rem;
-    /* top: 50px !important; */
-  }
-  .sidebar-toggled .aside.toggled .brand {
-    display: none;
-    margin-top: 20px;
-  }
-  nav.aside-dashboard {
-    margin-top: 20px;
-  }
-  .header {
-    height: auto !important;
-    background-color: hsla(0, 0%, 100%, 9) !important;
-  }
-  .dropdown.search-dropdown,
-  .dropdown.dropdown-notifications {
-    position: static;
-  }
-  .navbar-profile-right .search-dropdown .dropdown-menu,
-  .navbar-profile-right .user-container .dropdown-notifications .dropdown-menu {
-    box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15) !important;
-    width: 94%;
-    right: 0;
-    transform: initial !important;
-    left: 0 !important;
-    top: 52px !important;
-    margin: 0 auto;
-  }
-  .dropdown-notifications
-    .dropdown-menu
-    .dropdown-notifications-item
-    .dropdown-notifications-item-content
-    .dropdown-notifications-item-content-text {
-    max-width: calc(100vw - 8.5rem);
-  }
-  .header .container-fluid {
-    padding: 0;
-  }
-  .user-notifications-button {
-    position: relative;
-  }
-  .page {
-    padding: 15px 0;
-  }
-}
 .aside-footer {
   border-radius: 4px;
   background: #353c53;
@@ -351,7 +196,7 @@
   align-items: center;
   margin-top: auto;
   width: 192px;
-  padding: 6px 12px;
+  padding: 3px 12px;
   gap: 12px;
 }
 .aside-footer-img {
