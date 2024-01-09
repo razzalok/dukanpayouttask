@@ -6,7 +6,7 @@
 .aside {
   background: var(--Secondary-Navbar, #1e2640);
   border-right: 0 solid #08076d;
-  overflow: hidden;
+  /* overflow: hidden; */
   bottom: 0;
   width: 224px;
   padding: 16px 10px;
